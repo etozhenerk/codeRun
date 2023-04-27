@@ -1,0 +1,56 @@
+div {
+  /*Ваш код*/
+  position: relative;
+  background-color: #654430;
+}
+
+div:before {
+  /*Ваш код*/
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 90px;
+  background-color: #f7ebcc;
+}
+
+div:after {
+  /*Ваш код*/
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 90px;
+  height: 90px;
+  background-color: #f7ebcc;
+}
+
+body:before {
+  /*Ваш код*/
+  content: "";
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  background-color: #5f5d5e;
+  top: 30px;
+  left: 30px;
+  border: 3px solid #252324;
+  box-shadow: 0px 0px 0px 5px #5f5d5e;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+body:after {
+  /*Ваш код*/
+  content: "";
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  background-color: #5f5d5e;
+  border: 3px solid #252324;
+  box-shadow: 0px 0px 0px 5px #5f5d5e;
+  border-radius: 50%;
+  top: 120px;
+  left: 120px;
+}

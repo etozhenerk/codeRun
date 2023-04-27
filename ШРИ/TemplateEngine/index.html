@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <entry>
+      <h4>
+        <span x-make="remove:2"
+          ><p x-make="removeChildren:2">Блок 1</p>
+          <span>Блок 2</span><span x-make="remove:2">Блок 3</span></span
+        ><span x-make="removeChildren:1"
+          ><section x-make="remove:1">Блок 4</section>
+          <h3>Блок 5</h3>
+          <div>Блок 6</div></span
+        >
+        <h1 x-make="switch:2">
+          <h3 x-make="copy:3">Блок 7</h3>
+          <h2 x-make="switch:3">Блок 8</h2>
+          <span x-make="copy:3">Блок 9</span>
+          <h1>Блок 10</h1>
+        </h1>
+        <h3 x-make="removeChildren:2">
+          <h2 x-make="removeChildren:2">Блок 11</h2>
+          <section x-make="switch:2">Блок 12</section>
+          <section>Блок 13</section>
+        </h3>
+      </h4>
+    </entry>
+    <script src="./index.js"></script>
+  </body>
+</html>

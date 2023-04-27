@@ -1,0 +1,92 @@
+{
+  "objectFirst": {
+    "key": "first:[object Object]:key",
+    "key2": "first:[object Object]:key2",
+    "key3": 10,
+    "key4": {
+      "innerKey": "innerKey",
+      "innerObj": {
+        "test": 123,
+        "key": {},
+        "someOtherKey": {}
+      }
+    },
+    "array": {
+      "0": "first:[object Object]:array1",
+      "1": "first:[object Object]:array2",
+      "2": "first:[object Object]:array3",
+      "3": {
+        "key": "first:[object Object]:array4"
+      }
+    }
+  },
+  "object2First": {
+    "options": {
+      "key": "first:[object Object]:key",
+      "key2": "first:[object Object]:key2",
+      "key3": 10,
+      "key4": {
+        "innerKey": "innerKey",
+        "innerObj": {
+          "test": 123,
+          "key": {},
+          "someOtherKey": {}
+        }
+      },
+      "array": {
+        "0": "first:[object Object]:array1",
+        "1": "first:[object Object]:array2",
+        "2": "first:[object Object]:array3",
+        "3": {
+          "key": "first:[object Object]:array4"
+        }
+      }
+    },
+    "key": "first:[object Object]:object2key"
+  },
+  "objectSecond": {
+    "key": "first:[object Object]:key",
+    "key2": "first:[object Object]:key2",
+    "key3": 10,
+    "key4": {
+      "innerKey": "innerKey",
+      "innerObj": {
+        "test": 123,
+        "key": {},
+        "someOtherKey": {}
+      }
+    },
+    "array": {
+      "0": "first:[object Object]:array1",
+      "1": "first:[object Object]:array2",
+      "2": "first:[object Object]:array3",
+      "3": {
+        "key": "first:[object Object]:array4"
+      }
+    }
+  },
+  "object2Second": {
+    "options": {
+      "key": "first:[object Object]:key",
+      "key2": "first:[object Object]:key2",
+      "key3": 10,
+      "key4": {
+        "innerKey": "innerKey",
+        "innerObj": {
+          "test": 123,
+          "key": {},
+          "someOtherKey": {}
+        }
+      },
+      "array": {
+        "0": "first:[object Object]:array1",
+        "1": "first:[object Object]:array2",
+        "2": "first:[object Object]:array3",
+        "3": {
+          "key": "first:[object Object]:array4"
+        }
+      }
+    },
+    "key": "first:[object Object]:object2key"
+  }
+}
