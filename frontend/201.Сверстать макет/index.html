@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .body {
+        display: grid;
+        grid-template-columns: repeat(9, 70px);
+        grid-template-rows: repeat(9, 70px);
+      }
+      .block {
+        width: 70px;
+        height: 70px;
+        background-color: #fff;
+        border-right: 30px double #000;
+        border-left: 30px double #000;
+        box-sizing: border-box;
+      }
+      .empty-block {
+        width: 70px;
+        height: 70px;
+        background-color: #fff;
+        box-sizing: border-box;
+      }
+      .corner-block {
+        width: 70px;
+        height: 70px;
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: #fff;
+        border-top: 30px double #000;
+        border-left: 30px double #000;
+        box-sizing: border-box;
+      }
+      .corner-sub-block {
+        width: 30px;
+        height: 30px;
+        background-color: #fff;
+        border-top: 30px double #000;
+        border-left: 30px double #000;
+        box-sizing: border-box;
+      }
+
+      .rotate-90 {
+        transform: rotate(90deg);
+      }
+      .rotate-180 {
+        transform: rotate(180deg);
+      }
+      .rotate-270 {
+        transform: rotate(270deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body">
+      <div class="empty-block"></div>
+      <div class="empty-block"></div>
+      <div class="corner-block">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="block rotate-90"></div>
+      <div class="corner-block rotate-90">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="empty-block"></div>
+      <div class="corner-block">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="block rotate-90"></div>
+      <div class="corner-block rotate-90">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="empty-block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="corner-block">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="block rotate-90"></div>
+      <div class="block"></div>
+      <div class="block rotate-90"></div>
+      <div class="block rotate-90"></div>
+      <div class="block rotate-90"></div>
+      <div class="block"></div>
+      <div class="block rotate-90"></div>
+      <div class="corner-block rotate-180">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="empty-block"></div>
+      <div class="corner-block rotate-270">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="block rotate-90"></div>
+      <div class="block rotate-90"></div>
+      <div class="block rotate-90"></div>
+      <div class="block"></div>
+      <div class="block rotate-90"></div>
+      <div class="block rotate-90"></div>
+      <div class="block rotate-90"></div>
+      <div class="corner-block rotate-90">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="empty-block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="corner-block">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="block rotate-90"></div>
+      <div class="block"></div>
+      <div class="block rotate-90"></div>
+      <div class="block rotate-90"></div>
+      <div class="block rotate-90"></div>
+      <div class="block"></div>
+      <div class="block rotate-90"></div>
+      <div class="corner-block rotate-180">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="block"></div>
+      <div class="empty-block"></div>
+      <div class="empty-block"></div>
+      <div class="corner-block rotate-270">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="block rotate-90"></div>
+      <div class="corner-block rotate-180">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="empty-block"></div>
+      <div class="corner-block rotate-270">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="block rotate-90"></div>
+      <div class="corner-block rotate-180">
+        <div class="corner-sub-block"></div>
+      </div>
+      <div class="empty-block"></div>
+      <div class="empty-block"></div>
+    </div>
+  </body>
+</html>
